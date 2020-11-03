@@ -71,7 +71,6 @@
   animation-name: orario2;
   animation-duration: 2s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }
 @keyframes orario2 {
   0%{
@@ -90,7 +89,6 @@
   animation-name: top_white_12;
   animation-duration: 2s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }
 @keyframes top_white_12 {
   0% {
@@ -107,7 +105,6 @@
   animation-name: bottom_white_12;
   animation-duration: 2s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }
 @keyframes bottom_white_12 {
   0% {
@@ -118,5 +115,67 @@
   }
   100% {
     right: 10%;
+  }
+}
+
+
+.ex-13-button:hover .ex-13-top-white{
+  animation-name: top_white_13;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes top_white_13 {
+  0% {
+    left: 10%;
+  }
+  10% {
+    left: 80%;
+    top: 0%;
+  }
+  25% {
+    left: 80%;
+    top: 100%;
+  }
+  75% {
+    left: 0%;
+    top: 100%;
+  }
+  90% {
+    left: 80%;
+    top: 0%;
+  }
+  100% {
+    left: 80%;
+    top: 0%;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white{
+  animation-name: bottom_white_13;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes bottom_white_13 {
+  0% {
+    right: 20%;
+  }
+  10% {
+    right: 80%;
+    bottom: 0%;
+  }
+  25% {
+    right: 80%;
+    bottom: 100%;
+  }
+  50% {
+    right: 0%;
+    bottom: 100%;
+  }
+  75% {
+    right: 20%;
+    bottom: 0%;
+  }
+  100% {
+    right: 20%;
+    bottom: 0%;
   }
 }
