@@ -59,7 +59,25 @@
   animation-iteration-count: infinite;
 }
 @keyframes orario {
-  100%{
+  0%{
     transform: rotate(1turn);
+  }
+  100%{
+    transform: rotate(0turn);
+  }
+}
+
+.ex-11-icon:hover{
+  animation-name: orario2;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes orario2 {
+  0%{
+    transform: rotate(1turn);
+  }
+  100%{
+    transform: rotate(0turn);
   }
 }
