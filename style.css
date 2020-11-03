@@ -24,6 +24,8 @@
   width: 100px;
   height: 100px;
   background: red;
+  /* soluzione */
+  transition: 2s;
 }
 .ex-5-square {
   margin: 20px;
