@@ -22,3 +22,7 @@
   width: 10px;
   height: 10px;
 }
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
