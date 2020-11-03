@@ -128,25 +128,25 @@
   0% {
     left: 10%;
   }
-  10% {
+  20% {
     left: 80%;
-    top: 0%;
+    top: -10%;
   }
-  25% {
+  40% {
     left: 80%;
     top: 100%;
   }
-  75% {
-    left: 0%;
+  60% {
+    left: -10%;
     top: 100%;
   }
-  90% {
-    left: 80%;
-    top: 0%;
+  80% {
+    left: -10%;
+    top: -10%;
   }
   100% {
-    left: 80%;
-    top: 0%;
+    left: 10%;
+    top: -10%;
   }
 }
 .ex-13-button:hover .ex-13-bottom-white{
@@ -156,26 +156,26 @@
 }
 @keyframes bottom_white_13 {
   0% {
-    right: 20%;
+    right: 10%;
   }
-  10% {
+  20% {
     right: 80%;
-    bottom: 0%;
+    bottom: -10%;
   }
-  25% {
+  40% {
     right: 80%;
     bottom: 100%;
   }
-  50% {
-    right: 0%;
+  60% {
+    right: -10%;
     bottom: 100%;
   }
-  75% {
-    right: 20%;
-    bottom: 0%;
+  80% {
+    right: -10%;
+    bottom: -10%;
   }
   100% {
-    right: 20%;
-    bottom: 0%;
+    right: 10%;
+    bottom: -10%;
   }
 }
