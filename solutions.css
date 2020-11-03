@@ -26,3 +26,20 @@
 .ex-6-img:hover{
   filter: grayscale(100%);
 }
+
+.ex-7-img{
+  transition: 2s;
+}
+.ex-7-img:hover{
+  filter: grayscale(50%);
+  filter: sepia(50%);
+}
+
+.ex-8-img{
+  transition: 2s;
+}
+.ex-8-img:hover{
+  border-radius: 20px;
+  filter: grayscale(30%);
+  filter: saturate(70%);
+}
