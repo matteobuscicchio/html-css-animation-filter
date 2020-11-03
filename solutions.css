@@ -69,13 +69,16 @@
 
 .ex-11-icon:hover{
   animation-name: orario2;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 @keyframes orario2 {
   0%{
-    transform: rotate(1turn);
+    transform: rotate(0turn);
+  }
+  75%{
+    transform: rotate(0.9turn);
   }
   100%{
     transform: rotate(0turn);
