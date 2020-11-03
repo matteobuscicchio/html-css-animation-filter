@@ -5,17 +5,20 @@
 .ex-2-square:active{
   width: 100%;
 }
+
 .ex-3-square:hover{
   border-radius: 100px;
 }
+
 .ex-4-square:hover{
   background-color: transparent;
 }
+
 .ex-5-square:hover{
-  width: 50%;
-  height: 50%;
+  width: 100px;
+  height: 100px;
 }
 .ex-5-square:active{
-  width: -50%;
-  height: -50%;
+  width: 10px;
+  height: 10px;
 }
