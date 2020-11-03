@@ -5,3 +5,6 @@
 .ex-2-square:active{
   width: 100%;
 }
+.ex-3-square:hover{
+  border-radius: 100px;
+}

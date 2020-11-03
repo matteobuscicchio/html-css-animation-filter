@@ -17,6 +17,8 @@
   width: 100px;
   height: 100px;
   background: red;
+  /* soluzione */
+  transition: 1s;
 }
 .ex-4-square {
   width: 100px;
