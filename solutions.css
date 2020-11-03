@@ -11,3 +11,11 @@
 .ex-4-square:hover{
   background-color: transparent;
 }
+.ex-5-square:hover{
+  width: 50%;
+  height: 50%;
+}
+.ex-5-square:active{
+  width: -50%;
+  height: -50%;
+}
