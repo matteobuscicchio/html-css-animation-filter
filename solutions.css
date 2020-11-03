@@ -84,3 +84,39 @@
     transform: rotate(0turn);
   }
 }
+
+
+.ex-12-button:hover .ex-12-top-white{
+  animation-name: top_white_12;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes top_white_12 {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: 60%;
+  }
+  100% {
+    left: 10%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+  animation-name: bottom_white_12;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes bottom_white_12 {
+  0% {
+    right: 10%;
+  }
+  50% {
+    right: 60%;
+  }
+  100% {
+    right: 10%;
+  }
+}
