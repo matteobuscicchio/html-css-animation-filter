@@ -10,6 +10,8 @@
   width: 100px;
   height: 100px;
   background: red;
+  /* soluzione */
+  transition: 2s;
 }
 .ex-3-square {
   width: 100px;
